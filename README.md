@@ -12,3 +12,13 @@ Instructions
     If you update the metrics, tickers or period run cell 44 again if you would like to generate the requested 
     data via csv. The csv can be accessed by clicking the folder icon on the left and downloading the file or 
     double clicking to view the pane on the right
+
+    You can view the full list of metrics by removing the '#'s from lines 15,16,17 in cell 43, which are 
+    commented out.
+
+    """
+    #print("\nAvailable Metrics (Statement, Metric Name):")
+    #for i, (stmt, metric) in enumerate(available_metrics):
+    #    print(f"{i+1}. [{stmt[:3].upper()}] {metric}")
+    """
+    
